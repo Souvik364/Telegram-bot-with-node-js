@@ -6,7 +6,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 require('./features/welcome')(bot);
 require('./features/forceJoin')(bot);
 require('./features/menu')(bot);
-require('./features/autoReply')(bot);
+require('./features/autoReply')(bot); // must exist
 require('./features/shop')(bot);
 require('./features/support')(bot);
 
